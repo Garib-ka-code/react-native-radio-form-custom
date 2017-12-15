@@ -1,15 +1,15 @@
-react-native-radio-form
+react-native-radio-form-custom
 ================================================
   
 react-native-radio-form is a simple Radio’s form, it’s a pure JS's component and it could used for the Android and iOS
 
-![](https://github.com/cuiyueshuai/react-native-radio-form/raw/master/radio-form.png)
+![](https://github.com/cuiyueshuai/react-native-radio-form-custom/raw/master/radio-form.png)
 
 Installation
 ----------------------------------------------
 
 ```bash
-npm install react-native-radio-form --save
+npm install react-native-radio-form-custom --save
 ```
 **Note**: The radio-form is based on ECMAScript6, if you use React Native < `v0.13`, maybe it don't run
 
@@ -20,7 +20,7 @@ Usage
 ```javascript
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
-import RadioForm from 'react-native-radio-form';
+import RadioForm from 'react-native-radio-form-custom';
 const mockData = [
     {
         label: 'label1',
