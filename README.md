@@ -46,15 +46,18 @@ export default class PRNRadioForm extends Component {
     return (
       <View style={styles.container}>
         <View style={{ marginVertical: 10 }} >
-          <RadioForm
-              style={{ width: 350 - 30 }}
+         <RadioForm
               dataSource={mockData}
               itemShowKey="label"
               itemRealKey="value"
-              circleSize={16}
-              initial={1}
-              formHorizontal={true}
+              circleSize={20}
+              initial={0}
+              formHorizontal={false}
               labelHorizontal={true}
+              outerColor = {'#C7C7C7'}
+              innerColor = {'#0D2143'}
+              customTextStyle = {{fontFamily: "CenturyGothic", color: '#7C7C7C', fontSize: 14}}
+              customViewStyle = {{ flex:1, padding: 2.5, flexDirection: 'row', height:50, borderColor:'#EEEEEE', backgroundColor:'#FFFFFF', alignItems: 'center', borderTopWidth:0.5, borderBottomWidth:0.5 , marginTop:-0.5, width:WINDOW_WIDTH }}
               onPress={(item) => this._onSelect(item)}
           />
         </View>
